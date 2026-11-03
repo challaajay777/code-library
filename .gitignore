@@ -1,0 +1,23 @@
+# Build artifacts and binaries
+*.exe
+*.o
+*.obj
+*.out
+*.app
+build/
+bin/
+cmake-build-*/
+.cache/
+
+# Test temp outputs
+tests/bin/
+tests/tmp/
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
