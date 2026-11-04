@@ -1,0 +1,7 @@
+# GitHub Linguist language overrides
+# Keep GitHub repository language statistics at 100% C++
+
+scripts/** linguist-vendored
+scripts/** linguist-detectable=false
+inventory.json linguist-generated
+docs/** linguist-documentation
